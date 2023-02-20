@@ -6,7 +6,6 @@ const fetcher = async (url) => {
     const res = await fetch(url, {
         headers: {
             "Accept": "application/vnd.github+json",
-            "Authorization": "Bearer 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",
         }
     })
     if (!res.ok) {
